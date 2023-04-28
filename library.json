@@ -1,0 +1,108 @@
+swagger: '2.0'
+info:
+  version: '1'
+  title: ''
+  description: ''
+paths: {}
+# Added by API Auto Mocking Plugin
+host: virtserver.swaggerhub.com
+basePath: /MARKCAREFORD/Library/1
+schemes:
+ - https
+definitions: 
+  ISBN:
+    type: object
+    properties: 
+      url: 
+        type: string
+      key: 
+        type: string
+      title: 
+        type: string
+      subtitle: 
+        type: string
+      authors: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            url: 
+              type: string
+            name: 
+              type: string
+      pagination: 
+        type: string
+      identifiers: 
+        type: object
+        properties: 
+          isbn_13: 
+            type: array
+            items: 
+              type: string
+          openlibrary: 
+            type: array
+            items: 
+              type: string
+      publishers: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            name: 
+              type: string
+      publish_date: 
+        type: string
+      subjects: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            name: 
+              type: string
+            url: 
+              type: string
+      subject_places: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            name: 
+              type: string
+            url: 
+              type: string
+      subject_people: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            name: 
+              type: string
+            url: 
+              type: string
+      excerpts: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            text: 
+              type: string
+            comment: 
+              type: string
+      links: 
+        type: array
+        items: 
+          type: object
+          properties: 
+            title: 
+              type: string
+            url: 
+              type: string
+      cover: 
+        type: object
+        properties: 
+          small: 
+            type: string
+          medium: 
+            type: string
+          large: 
+            type: string
